@@ -1,0 +1,20 @@
+<manifest package="com.example.candlescanner"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="CandleScanner"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:name="com.example.candlescanner.CandleApplication">
+        <activity android:name="com.example.candlescanner.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

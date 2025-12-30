@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CandleScanner</string>
+    <string name="disclaimer">This app is educational and provides analysis only. No guaranteed profit; no auto-trading. Use at your own risk.</string>
+</resources>
